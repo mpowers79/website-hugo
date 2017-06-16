@@ -1,3 +1,31 @@
 baseURL = "http://michaelspowers.com/"
 languageCode = "en-us"
-title = "My New Site"
+title = "Michael S Powers"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+googleAnalytics = "UA-77887966-2"
+
+[author]
+  name = "Michael Powers"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+ # Description = "Hi, I'm Mike Powers"
+  Author = "Michael Powers"
+  postSummariesFrontPage = 4 
+  showReadTime = true
+
+[[menu.main]]
+	name = "home"
+	url = "/"
+	weight = -200
+[[menu.main]]
+	name = "about"
+	url = "/about/"
+	weight = -190
+[[menu.main]]
+	name = "Blog"
+	url = "/post/"
+	weight = -180
+
